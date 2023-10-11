@@ -6,7 +6,7 @@ import os
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-folder_path = r'C:\Users\samae\OneDrive\Documentos\Pyblog'
+folder_path = r'C:\Tu_ruta_de_directorio'
 
 for filename in os.listdir(folder_path):
     file_path = os.path.join(folder_path, filename)
