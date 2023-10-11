@@ -1,2 +1,3 @@
 # Python-y-Tesseract-Extraccion-de-texto-de-imagenes
-Herramienta para Extraer Texto de Imágenes en Python Utilizando Tesseract OCR.
+En las últimas semanas, me he encontrado con la necesidad de extraer datos de imágenes y fotografías de manera eficiente. Después de investigar diversas soluciones, me di cuenta de que Tesseract OCR podrían ser la respuesta que estaba buscando. Tesseract OCR es una herramienta de reconocimiento óptico de caracteres (OCR) de código abierto que puede convertir imágenes de texto en texto legible por máquina.
+Este script recorre todos los archivos en la carpeta folder_path, verifica si son imágenes válidas y, si es así, utiliza Tesseract OCR para extraer el texto de la imagen. Luego, guarda el texto en un archivo DOCX y un archivo TXT con el mismo nombre que el archivo de origen.
